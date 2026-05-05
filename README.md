@@ -1,17 +1,21 @@
 # my_app_fixed
 
-A new Flutter project.
+تطبيق Flutter للتحكم في الأجهزة عبر Bluetooth وحفظ بيانات محلية.
 
-## Getting Started
+## ملفات المشروع
+- lib/pages/ble_page.dart
+- lib/pages/enable_bluetooth_page.dart
+- lib/pages/items_page.dart
+- assets/images/ (لصور التطبيق)
+- pubspec.yaml (الحزم والتبعيات)
+- android/ و ios/ (ملفات النظام لكل منصة)
 
-This project is a starting point for a Flutter application.
+## الحزم المستخدمة
+- flutter_blue_plus
+- shared_preferences
+- cupertino_icons
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## كيفية تشغيل التطبيق
+1. افتح المشروع في VS Code من المجلد **my_app_fixed** (مهم يكون جذر المشروع)
+2. افتح الترمنال في VS Code
+3. شغل الأوامر التالية:
